@@ -1,0 +1,1626 @@
+[
+    {
+        "name": "ikarus/raspberry-pinout",
+        "version": "v0.8.0",
+        "version_normalized": "0.8.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tasoftch/ikarus-raspberry-pinout.git",
+            "reference": "d57c5c3e8c0de18472044c5a75412482f08accf9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tasoftch/ikarus-raspberry-pinout/zipball/d57c5c3e8c0de18472044c5a75412482f08accf9",
+            "reference": "d57c5c3e8c0de18472044c5a75412482f08accf9",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pcntl": "*",
+            "php": ">=7.2"
+        },
+        "suggest": {
+            "ext-pcntl": "*"
+        },
+        "time": "2022-04-22T19:58:19+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Ikarus\\Raspberry\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Thomas Abplanalp",
+                "email": "info@tasoft.ch"
+            }
+        ],
+        "support": {
+            "issues": "https://github.com/tasoftch/ikarus-raspberry-pinout/issues",
+            "source": "https://github.com/tasoftch/ikarus-raspberry-pinout/tree/v0.8.0"
+        }
+    },
+    {
+        "name": "ikarus/sps",
+        "version": "v0.8.10",
+        "version_normalized": "0.8.10.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tasoftch/ikarus-sps.git",
+            "reference": "3fc6a77f4fb5386687dfd0d5ad6d6c7e617a8b1c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tasoftch/ikarus-sps/zipball/3fc6a77f4fb5386687dfd0d5ad6d6c7e617a8b1c",
+            "reference": "3fc6a77f4fb5386687dfd0d5ad6d6c7e617a8b1c",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pcntl": "*",
+            "ext-posix": "*",
+            "ext-sockets": "*",
+            "php": ">=7.2",
+            "tasoft/event-manager": "^1.0",
+            "tasoft/process": "^1.0",
+            "tasoft/value-injector": "^1.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^6"
+        },
+        "time": "2022-07-20T09:48:29+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Ikarus\\SPS\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Thomas Abplanalp",
+                "email": "info@tasoft.ch"
+            }
+        ],
+        "support": {
+            "issues": "https://github.com/tasoftch/ikarus-sps/issues",
+            "source": "https://github.com/tasoftch/ikarus-sps/tree/v0.8.10"
+        }
+    },
+    {
+        "name": "ikarus/sps-common-memory-register",
+        "version": "v0.8.10",
+        "version_normalized": "0.8.10.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tasoftch/ikarus-sps-common-memory-register.git",
+            "reference": "f081001bcd2c10308fdce0c42b3d1a502f451ff3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tasoftch/ikarus-sps-common-memory-register/zipball/f081001bcd2c10308fdce0c42b3d1a502f451ff3",
+            "reference": "f081001bcd2c10308fdce0c42b3d1a502f451ff3",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pcntl": "*",
+            "ext-posix": "*",
+            "ext-sockets": "*",
+            "ikarus/sps": "^0.8",
+            "php": ">=7.2",
+            "tasoft/php-pdo": "^0",
+            "tasoft/process": "^1.0"
+        },
+        "time": "2022-07-20T09:56:11+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Ikarus\\SPS\\Register\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Thomas Abplanalp",
+                "email": "info@tasoft.ch"
+            }
+        ],
+        "support": {
+            "issues": "https://github.com/tasoftch/ikarus-sps-common-memory-register/issues",
+            "source": "https://github.com/tasoftch/ikarus-sps-common-memory-register/tree/v0.8.10"
+        }
+    },
+    {
+        "name": "ikarus/sps-gpio-driver",
+        "version": "v0.8.3",
+        "version_normalized": "0.8.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tasoftch/ikarus-sps-gpio-driver.git",
+            "reference": "8e4057d6bd7202cbe27821b25c879c56468a0863"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tasoftch/ikarus-sps-gpio-driver/zipball/8e4057d6bd7202cbe27821b25c879c56468a0863",
+            "reference": "8e4057d6bd7202cbe27821b25c879c56468a0863",
+            "shasum": ""
+        },
+        "require": {
+            "ikarus/raspberry-pinout": "^0.8",
+            "ikarus/sps": "^0.8",
+            "ikarus/sps-i2c-gpio-extender": "^0.8",
+            "php": ">7.2"
+        },
+        "time": "2022-04-22T20:16:37+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Ikarus\\SPS\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Thomas Abplanalp",
+                "email": "info@tasoft.ch"
+            }
+        ],
+        "support": {
+            "issues": "https://github.com/tasoftch/ikarus-sps-gpio-driver/issues",
+            "source": "https://github.com/tasoftch/ikarus-sps-gpio-driver/tree/v0.8.3"
+        }
+    },
+    {
+        "name": "ikarus/sps-i2c-dac",
+        "version": "v0.8.0",
+        "version_normalized": "0.8.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tasoftch/ikarus-sps-i2c-dac.git",
+            "reference": "44a3306ba3e4e10e12244bd84c13921174eadbb0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tasoftch/ikarus-sps-i2c-dac/zipball/44a3306ba3e4e10e12244bd84c13921174eadbb0",
+            "reference": "44a3306ba3e4e10e12244bd84c13921174eadbb0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.2",
+            "tasoft/php-i2c-extension": "^0.9"
+        },
+        "time": "2021-03-10T10:44:42+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Ikarus\\SPS\\I2C\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Thomas Abplanalp",
+                "email": "info@tasoft.ch"
+            }
+        ]
+    },
+    {
+        "name": "ikarus/sps-i2c-gpio-extender",
+        "version": "v0.8.11",
+        "version_normalized": "0.8.11.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tasoftch/ikarus-sps-gpio-extender.git",
+            "reference": "8a81f9a598837e561ff6ee474d3a9abd4fc7c23f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tasoftch/ikarus-sps-gpio-extender/zipball/8a81f9a598837e561ff6ee474d3a9abd4fc7c23f",
+            "reference": "8a81f9a598837e561ff6ee474d3a9abd4fc7c23f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">7.2",
+            "tasoft/php-i2c-extension": "^0.9"
+        },
+        "time": "2022-06-11T19:15:13+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Ikarus\\SPS\\I2C\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Thomas Abplanalp",
+                "email": "info@tasoft.ch"
+            }
+        ],
+        "support": {
+            "issues": "https://github.com/tasoftch/ikarus-sps-gpio-extender/issues",
+            "source": "https://github.com/tasoftch/ikarus-sps-gpio-extender/tree/v0.8.11"
+        }
+    },
+    {
+        "name": "ikarus/sps-ina219",
+        "version": "v0.8.0",
+        "version_normalized": "0.8.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tasoftch/ikarus-sps-ina219.git",
+            "reference": "6fa77ea455c3d20edacb71ff7944489a5c11f60b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tasoftch/ikarus-sps-ina219/zipball/6fa77ea455c3d20edacb71ff7944489a5c11f60b",
+            "reference": "6fa77ea455c3d20edacb71ff7944489a5c11f60b",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2",
+            "tasoft/php-i2c-extension": "^0.9"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^6"
+        },
+        "time": "2021-02-22T15:44:03+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Ikarus\\SPS\\Adafruit\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Thomas Abplanalp",
+                "email": "info@tasoft.ch"
+            }
+        ]
+    },
+    {
+        "name": "ikarus/sps-multi-processing",
+        "version": "v0.8.2",
+        "version_normalized": "0.8.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tasoftch/ikarus-sps-multi-processing.git",
+            "reference": "93d46a510eb4338b2846d5cd2e0fb8c88372af5d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tasoftch/ikarus-sps-multi-processing/zipball/93d46a510eb4338b2846d5cd2e0fb8c88372af5d",
+            "reference": "93d46a510eb4338b2846d5cd2e0fb8c88372af5d",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pcntl": "*",
+            "ext-posix": "*",
+            "ikarus/sps": "^0.8",
+            "php": "^7.2"
+        },
+        "time": "2021-03-18T16:32:58+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Ikarus\\SPS\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Thomas Abplanalp",
+                "email": "info@tasoft.ch"
+            }
+        ]
+    },
+    {
+        "name": "ikarus/sps-procedure",
+        "version": "v0.0.20",
+        "version_normalized": "0.0.20.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tasoftch/ikarus-sps-procedure.git",
+            "reference": "11f67e56896ee6d6844f8ca5f4957875cd8ba621"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tasoftch/ikarus-sps-procedure/zipball/11f67e56896ee6d6844f8ca5f4957875cd8ba621",
+            "reference": "11f67e56896ee6d6844f8ca5f4957875cd8ba621",
+            "shasum": ""
+        },
+        "require": {
+            "ext-json": "*",
+            "ikarus/sps": "^0.8",
+            "php": "^7.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^6"
+        },
+        "time": "2022-07-20T13:20:23+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Ikarus\\SPS\\Procedure\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Thomas Abplanalp",
+                "email": "info@tasoft.ch"
+            }
+        ],
+        "support": {
+            "issues": "https://github.com/tasoftch/ikarus-sps-procedure/issues",
+            "source": "https://github.com/tasoftch/ikarus-sps-procedure/tree/v0.0.20"
+        }
+    },
+    {
+        "name": "ikarus/sps-raspberry-pi",
+        "version": "v0.8.3",
+        "version_normalized": "0.8.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tasoftch/ikarus-sps-raspberry-pi.git",
+            "reference": "90890c3228400a5efafe476249e1ef8dc5feec2d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tasoftch/ikarus-sps-raspberry-pi/zipball/90890c3228400a5efafe476249e1ef8dc5feec2d",
+            "reference": "90890c3228400a5efafe476249e1ef8dc5feec2d",
+            "shasum": ""
+        },
+        "require": {
+            "ikarus/raspberry-pinout": "^0.8",
+            "ikarus/sps": "^0.8",
+            "php": "^7.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^6"
+        },
+        "time": "2022-06-14T15:39:54+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Ikarus\\SPS\\Raspberry\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Thomas Abplanalp",
+                "email": "info@tasoft.ch"
+            }
+        ],
+        "support": {
+            "issues": "https://github.com/tasoftch/ikarus-sps-raspberry-pi/issues",
+            "source": "https://github.com/tasoftch/ikarus-sps-raspberry-pi/tree/v0.8.3"
+        }
+    },
+    {
+        "name": "ikarus/sps-raspberry-pi-ads1x15",
+        "version": "v0.3.1",
+        "version_normalized": "0.3.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tasoftch/ikarus-sps-raspberry-pi-ads.git",
+            "reference": "0e1c2cce90a6f2d0b0b8e63a5998c5aa9517bba8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tasoftch/ikarus-sps-raspberry-pi-ads/zipball/0e1c2cce90a6f2d0b0b8e63a5998c5aa9517bba8",
+            "reference": "0e1c2cce90a6f2d0b0b8e63a5998c5aa9517bba8",
+            "shasum": ""
+        },
+        "require": {
+            "ikarus/sps": "^0.8",
+            "php": "^7.2",
+            "tasoft/php-i2c-extension": "^0.9"
+        },
+        "time": "2021-01-28T13:51:18+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Ikarus\\SPS\\Raspberry\\Adafruit\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Thomas Abplanalp",
+                "email": "info@tasoft.ch"
+            }
+        ]
+    },
+    {
+        "name": "psr/container",
+        "version": "1.1.2",
+        "version_normalized": "1.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/container.git",
+            "reference": "513e0666f7216c7459170d56df27dfcefe1689ea"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/container/zipball/513e0666f7216c7459170d56df27dfcefe1689ea",
+            "reference": "513e0666f7216c7459170d56df27dfcefe1689ea",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.4.0"
+        },
+        "time": "2021-11-05T16:50:12+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Container\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "https://www.php-fig.org/"
+            }
+        ],
+        "description": "Common Container Interface (PHP FIG PSR-11)",
+        "homepage": "https://github.com/php-fig/container",
+        "keywords": [
+            "PSR-11",
+            "container",
+            "container-interface",
+            "container-interop",
+            "psr"
+        ],
+        "support": {
+            "issues": "https://github.com/php-fig/container/issues",
+            "source": "https://github.com/php-fig/container/tree/1.1.2"
+        }
+    },
+    {
+        "name": "symfony/console",
+        "version": "v5.4.11",
+        "version_normalized": "5.4.11.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/console.git",
+            "reference": "535846c7ee6bc4dd027ca0d93220601456734b10"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/console/zipball/535846c7ee6bc4dd027ca0d93220601456734b10",
+            "reference": "535846c7ee6bc4dd027ca0d93220601456734b10",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.2.5",
+            "symfony/deprecation-contracts": "^2.1|^3",
+            "symfony/polyfill-mbstring": "~1.0",
+            "symfony/polyfill-php73": "^1.9",
+            "symfony/polyfill-php80": "^1.16",
+            "symfony/service-contracts": "^1.1|^2|^3",
+            "symfony/string": "^5.1|^6.0"
+        },
+        "conflict": {
+            "psr/log": ">=3",
+            "symfony/dependency-injection": "<4.4",
+            "symfony/dotenv": "<5.1",
+            "symfony/event-dispatcher": "<4.4",
+            "symfony/lock": "<4.4",
+            "symfony/process": "<4.4"
+        },
+        "provide": {
+            "psr/log-implementation": "1.0|2.0"
+        },
+        "require-dev": {
+            "psr/log": "^1|^2",
+            "symfony/config": "^4.4|^5.0|^6.0",
+            "symfony/dependency-injection": "^4.4|^5.0|^6.0",
+            "symfony/event-dispatcher": "^4.4|^5.0|^6.0",
+            "symfony/lock": "^4.4|^5.0|^6.0",
+            "symfony/process": "^4.4|^5.0|^6.0",
+            "symfony/var-dumper": "^4.4|^5.0|^6.0"
+        },
+        "suggest": {
+            "psr/log": "For using the console logger",
+            "symfony/event-dispatcher": "",
+            "symfony/lock": "",
+            "symfony/process": ""
+        },
+        "time": "2022-07-22T10:42:43+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Console\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Eases the creation of beautiful and testable command line interfaces",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "cli",
+            "command line",
+            "console",
+            "terminal"
+        ],
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "symfony/deprecation-contracts",
+        "version": "v2.5.2",
+        "version_normalized": "2.5.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/deprecation-contracts.git",
+            "reference": "e8b495ea28c1d97b5e0c121748d6f9b53d075c66"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/e8b495ea28c1d97b5e0c121748d6f9b53d075c66",
+            "reference": "e8b495ea28c1d97b5e0c121748d6f9b53d075c66",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.1"
+        },
+        "time": "2022-01-02T09:53:40+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-main": "2.5-dev"
+            },
+            "thanks": {
+                "name": "symfony/contracts",
+                "url": "https://github.com/symfony/contracts"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "function.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "A generic function and convention to trigger deprecation notices",
+        "homepage": "https://symfony.com",
+        "support": {
+            "source": "https://github.com/symfony/deprecation-contracts/tree/v2.5.2"
+        },
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "symfony/polyfill-ctype",
+        "version": "v1.26.0",
+        "version_normalized": "1.26.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-ctype.git",
+            "reference": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+            "reference": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.1"
+        },
+        "provide": {
+            "ext-ctype": "*"
+        },
+        "suggest": {
+            "ext-ctype": "For best performance"
+        },
+        "time": "2022-05-24T11:49:31+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-main": "1.26-dev"
+            },
+            "thanks": {
+                "name": "symfony/polyfill",
+                "url": "https://github.com/symfony/polyfill"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "bootstrap.php"
+            ],
+            "psr-4": {
+                "Symfony\\Polyfill\\Ctype\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gert de Pagter",
+                "email": "BackEndTea@gmail.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for ctype functions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "ctype",
+            "polyfill",
+            "portable"
+        ],
+        "support": {
+            "source": "https://github.com/symfony/polyfill-ctype/tree/v1.26.0"
+        },
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "symfony/polyfill-intl-grapheme",
+        "version": "v1.26.0",
+        "version_normalized": "1.26.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
+            "reference": "433d05519ce6990bf3530fba6957499d327395c2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/433d05519ce6990bf3530fba6957499d327395c2",
+            "reference": "433d05519ce6990bf3530fba6957499d327395c2",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.1"
+        },
+        "suggest": {
+            "ext-intl": "For best performance"
+        },
+        "time": "2022-05-24T11:49:31+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-main": "1.26-dev"
+            },
+            "thanks": {
+                "name": "symfony/polyfill",
+                "url": "https://github.com/symfony/polyfill"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "bootstrap.php"
+            ],
+            "psr-4": {
+                "Symfony\\Polyfill\\Intl\\Grapheme\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for intl's grapheme_* functions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "grapheme",
+            "intl",
+            "polyfill",
+            "portable",
+            "shim"
+        ],
+        "support": {
+            "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.26.0"
+        },
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "symfony/polyfill-intl-normalizer",
+        "version": "v1.26.0",
+        "version_normalized": "1.26.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
+            "reference": "219aa369ceff116e673852dce47c3a41794c14bd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/219aa369ceff116e673852dce47c3a41794c14bd",
+            "reference": "219aa369ceff116e673852dce47c3a41794c14bd",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.1"
+        },
+        "suggest": {
+            "ext-intl": "For best performance"
+        },
+        "time": "2022-05-24T11:49:31+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-main": "1.26-dev"
+            },
+            "thanks": {
+                "name": "symfony/polyfill",
+                "url": "https://github.com/symfony/polyfill"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "bootstrap.php"
+            ],
+            "psr-4": {
+                "Symfony\\Polyfill\\Intl\\Normalizer\\": ""
+            },
+            "classmap": [
+                "Resources/stubs"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for intl's Normalizer class and related functions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "intl",
+            "normalizer",
+            "polyfill",
+            "portable",
+            "shim"
+        ],
+        "support": {
+            "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.26.0"
+        },
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "symfony/polyfill-mbstring",
+        "version": "v1.26.0",
+        "version_normalized": "1.26.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-mbstring.git",
+            "reference": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+            "reference": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.1"
+        },
+        "provide": {
+            "ext-mbstring": "*"
+        },
+        "suggest": {
+            "ext-mbstring": "For best performance"
+        },
+        "time": "2022-05-24T11:49:31+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-main": "1.26-dev"
+            },
+            "thanks": {
+                "name": "symfony/polyfill",
+                "url": "https://github.com/symfony/polyfill"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "bootstrap.php"
+            ],
+            "psr-4": {
+                "Symfony\\Polyfill\\Mbstring\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for the Mbstring extension",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "mbstring",
+            "polyfill",
+            "portable",
+            "shim"
+        ],
+        "support": {
+            "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.26.0"
+        },
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "symfony/polyfill-php73",
+        "version": "v1.26.0",
+        "version_normalized": "1.26.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-php73.git",
+            "reference": "e440d35fa0286f77fb45b79a03fedbeda9307e85"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/e440d35fa0286f77fb45b79a03fedbeda9307e85",
+            "reference": "e440d35fa0286f77fb45b79a03fedbeda9307e85",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.1"
+        },
+        "time": "2022-05-24T11:49:31+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-main": "1.26-dev"
+            },
+            "thanks": {
+                "name": "symfony/polyfill",
+                "url": "https://github.com/symfony/polyfill"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "bootstrap.php"
+            ],
+            "psr-4": {
+                "Symfony\\Polyfill\\Php73\\": ""
+            },
+            "classmap": [
+                "Resources/stubs"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "polyfill",
+            "portable",
+            "shim"
+        ],
+        "support": {
+            "source": "https://github.com/symfony/polyfill-php73/tree/v1.26.0"
+        },
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "symfony/polyfill-php80",
+        "version": "v1.26.0",
+        "version_normalized": "1.26.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-php80.git",
+            "reference": "cfa0ae98841b9e461207c13ab093d76b0fa7bace"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+            "reference": "cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.1"
+        },
+        "time": "2022-05-10T07:21:04+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-main": "1.26-dev"
+            },
+            "thanks": {
+                "name": "symfony/polyfill",
+                "url": "https://github.com/symfony/polyfill"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "bootstrap.php"
+            ],
+            "psr-4": {
+                "Symfony\\Polyfill\\Php80\\": ""
+            },
+            "classmap": [
+                "Resources/stubs"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ion Bazan",
+                "email": "ion.bazan@gmail.com"
+            },
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "polyfill",
+            "portable",
+            "shim"
+        ],
+        "support": {
+            "source": "https://github.com/symfony/polyfill-php80/tree/v1.26.0"
+        },
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "symfony/service-contracts",
+        "version": "v2.5.2",
+        "version_normalized": "2.5.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/service-contracts.git",
+            "reference": "4b426aac47d6427cc1a1d0f7e2ac724627f5966c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/service-contracts/zipball/4b426aac47d6427cc1a1d0f7e2ac724627f5966c",
+            "reference": "4b426aac47d6427cc1a1d0f7e2ac724627f5966c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.2.5",
+            "psr/container": "^1.1",
+            "symfony/deprecation-contracts": "^2.1|^3"
+        },
+        "conflict": {
+            "ext-psr": "<1.1|>=2"
+        },
+        "suggest": {
+            "symfony/service-implementation": ""
+        },
+        "time": "2022-05-30T19:17:29+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-main": "2.5-dev"
+            },
+            "thanks": {
+                "name": "symfony/contracts",
+                "url": "https://github.com/symfony/contracts"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Contracts\\Service\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Generic abstractions related to writing services",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "abstractions",
+            "contracts",
+            "decoupling",
+            "interfaces",
+            "interoperability",
+            "standards"
+        ],
+        "support": {
+            "source": "https://github.com/symfony/service-contracts/tree/v2.5.2"
+        },
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "symfony/string",
+        "version": "v5.4.11",
+        "version_normalized": "5.4.11.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/string.git",
+            "reference": "5eb661e49ad389e4ae2b6e4df8d783a8a6548322"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/string/zipball/5eb661e49ad389e4ae2b6e4df8d783a8a6548322",
+            "reference": "5eb661e49ad389e4ae2b6e4df8d783a8a6548322",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.2.5",
+            "symfony/polyfill-ctype": "~1.8",
+            "symfony/polyfill-intl-grapheme": "~1.0",
+            "symfony/polyfill-intl-normalizer": "~1.0",
+            "symfony/polyfill-mbstring": "~1.0",
+            "symfony/polyfill-php80": "~1.15"
+        },
+        "conflict": {
+            "symfony/translation-contracts": ">=3.0"
+        },
+        "require-dev": {
+            "symfony/error-handler": "^4.4|^5.0|^6.0",
+            "symfony/http-client": "^4.4|^5.0|^6.0",
+            "symfony/translation-contracts": "^1.1|^2",
+            "symfony/var-exporter": "^4.4|^5.0|^6.0"
+        },
+        "time": "2022-07-24T16:15:25+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "Resources/functions.php"
+            ],
+            "psr-4": {
+                "Symfony\\Component\\String\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Provides an object-oriented API to strings and deals with bytes, UTF-8 code points and grapheme clusters in a unified way",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "grapheme",
+            "i18n",
+            "string",
+            "unicode",
+            "utf-8",
+            "utf8"
+        ],
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "tasoft/collection",
+        "version": "v1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tasoftch/php-collection.git",
+            "reference": "b3973dfb55454370c3b978d741270f634d34d3c7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tasoftch/php-collection/zipball/b3973dfb55454370c3b978d741270f634d34d3c7",
+            "reference": "b3973dfb55454370c3b978d741270f634d34d3c7",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^6"
+        },
+        "time": "2020-08-27T21:07:58+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TASoft\\Collection\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Thomas Abplanalp",
+                "email": "info@tasoft.ch"
+            }
+        ]
+    },
+    {
+        "name": "tasoft/event-manager",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tasoftch/php-event-manager.git",
+            "reference": "aeefa3f91d106ee1feb67bb98449d1505750dffa"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tasoftch/php-event-manager/zipball/aeefa3f91d106ee1feb67bb98449d1505750dffa",
+            "reference": "aeefa3f91d106ee1feb67bb98449d1505750dffa",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2",
+            "tasoft/collection": "^1.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^6"
+        },
+        "time": "2020-04-21T18:24:57+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TASoft\\EventManager\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Thomas Abplanalp",
+                "email": "info@tasoft.ch"
+            }
+        ]
+    },
+    {
+        "name": "tasoft/php-i2c-extension",
+        "version": "v0.9.5",
+        "version_normalized": "0.9.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tasoftch/php-i2c-extension.git",
+            "reference": "9f121fa16a21160b32a9dafcd9d24fd701c01d2e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tasoftch/php-i2c-extension/zipball/9f121fa16a21160b32a9dafcd9d24fd701c01d2e",
+            "reference": "9f121fa16a21160b32a9dafcd9d24fd701c01d2e",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2"
+        },
+        "time": "2022-05-22T19:41:21+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TASoft\\Bus\\": "PHP"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "thomas",
+                "email": "thomas@tasoft.ch"
+            }
+        ],
+        "description": "A simple I2C extension for PHP to read from and write to i2c bus.",
+        "support": {
+            "issues": "https://github.com/tasoftch/php-i2c-extension/issues",
+            "source": "https://github.com/tasoftch/php-i2c-extension/tree/v0.9.5"
+        }
+    },
+    {
+        "name": "tasoft/php-pdo",
+        "version": "v0.8.10",
+        "version_normalized": "0.8.10.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tasoftch/php-pdo.git",
+            "reference": "7fdab39e51b16bffb38fd3d153d39fb01019ed06"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tasoftch/php-pdo/zipball/7fdab39e51b16bffb38fd3d153d39fb01019ed06",
+            "reference": "7fdab39e51b16bffb38fd3d153d39fb01019ed06",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pdo": "*",
+            "php": ">=7.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^6"
+        },
+        "time": "2022-06-08T11:07:07+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TASoft\\Util\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Thomas Abplanalp",
+                "email": "info@tasoft.ch"
+            }
+        ],
+        "support": {
+            "issues": "https://github.com/tasoftch/php-pdo/issues",
+            "source": "https://github.com/tasoftch/php-pdo/tree/v0.8.10"
+        }
+    },
+    {
+        "name": "tasoft/process",
+        "version": "v1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tasoftch/php-process.git",
+            "reference": "3a8e96b2ad67b60ccdb0b1e7c945c34b7cd29f28"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tasoftch/php-process/zipball/3a8e96b2ad67b60ccdb0b1e7c945c34b7cd29f28",
+            "reference": "3a8e96b2ad67b60ccdb0b1e7c945c34b7cd29f28",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pcntl": "*",
+            "ext-posix": "*",
+            "ext-sockets": "*",
+            "php": ">=7.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^6"
+        },
+        "time": "2021-06-22T18:05:07+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TASoft\\Util\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Thomas Abplanalp",
+                "email": "info@tasoft.ch"
+            }
+        ],
+        "support": {
+            "issues": "https://github.com/tasoftch/php-process/issues",
+            "source": "https://github.com/tasoftch/php-process/tree/v1.0.1"
+        }
+    },
+    {
+        "name": "tasoft/value-injector",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tasoftch/php-value-injector.git",
+            "reference": "f03f4077bd73c5ba81f5ceff0592d7ade6dc94ae"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tasoftch/php-value-injector/zipball/f03f4077bd73c5ba81f5ceff0592d7ade6dc94ae",
+            "reference": "f03f4077bd73c5ba81f5ceff0592d7ade6dc94ae",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^6"
+        },
+        "time": "2020-04-21T18:29:33+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TASoft\\Util\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Thomas Abplanalp",
+                "email": "info@tasoft.ch"
+            }
+        ]
+    }
+]
